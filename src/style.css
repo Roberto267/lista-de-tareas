@@ -1,0 +1,43 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,500&family=Rowdies&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,500&family=Rowdies&display=swap');
+
+.todo-finished {
+    text-decoration: line-through;
+    color:red;
+}
+body{
+    background-image: url("/imag/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+.card{
+    color:goldenrod;
+    background-image: url(/imag/ma.jpg);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rowdies', cursive;
+    background-size: cover;
+    
+}
+.card-body{
+    background-color:goldenrod;
+}
+.list-group-item{
+    background-image: url(/imag/fo.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.list-group-item:hover{
+    color:orange;
+}
+.card-header{
+    color: green;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rowdies', cursive;
+}
+.card-header:hover{
+    color: yellow;
+   
+}
